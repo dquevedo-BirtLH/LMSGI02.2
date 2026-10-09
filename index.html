@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale-1.0">
+        <title>Gran Premio de F1 - Inicio</title>
+        <!--Vinculación a la hoja de estilos css mediante ruta relativa-->
+        <link rel="stylesheet" href="estilos/estilos.css">
+    </head>
+
+    <script src="funciones/funciones.js"></script>
+    
+    <body>
+        <!--Encabezado Principal-->
+        <header>
+            <h1>Gran Premio de F1 - Temporada 2026</h1>
+            <p>Toda la información del evento deportivo</p>
+        </header>
+
+        <!--Menú de Navegación-->
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="circuitos.html">Circuito</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+
+            <button type="button" onclick="cambiarModoOscuro()">Modo Oscuro</button>
+        </nav>
+
+        <!--Contenido Principal-->
+        <main>
+            /* Boton saludo */
+            <button type="button" onclick="saludoPiloto()">Saludar al aficionado</button>
+            
+            <!--Comentario HTML: Sección de presentación de la carrera-->
+            <section>
+                <h2>Bienvenido al Gran Premio</h2>
+                <p>Descubre todos los detalles sobre uno de los eventos más emocionantes del calendario del automovilismo mundial.</p>
+                <!--Imagen contexto alternativo-->
+                <img src="imagenes/coche.jpg" alt="Monoplaza de Fórmula 1 en pista" class="img-f1">
+            </section>
+
+            <!--Comentario HTML: Lista requerida por enunciado-->
+            <section>
+                <h3>Puntos clave del evento</h3>
+                <ul>
+                    <li>Entrenamientos libres los viernes</li>
+                    <li>Sesión de clasificación los sábados</li>
+                    <li>Carrera principal los domingos</li>
+                </ul>
+            </section>
+
+            <!--Comentario HTML: Enlaces externos-->
+            <section>
+                <h3>Enlaces de interés externos</h3>
+                <p>Puedes consultar más detalles en el <a href="https://www.formula1.com" target="_blank">sitio web oficial de la Fórmula 1</a>.</p>  
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Sitio Web sobre Gran Premio de F1 - Proyecto ASIR BirtHL</p>
+        </footer>
+
+
+    </body>
+</html>

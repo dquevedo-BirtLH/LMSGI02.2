@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UFF-8">
+        <meta name="viewport" content="width=device=width, initial-scale-1.0">
+        <title>Gran Premio de F1 - Contacto</title>
+        <link rel="stylesheet" href="estilos/estilos.css">
+    </head>
+
+    <script src="funciones/funciones.js"></script>
+    
+    <body>
+        <header>
+            <h1>Contacto y Asistencias</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="circuitos.html">Circuito</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+
+            <button type="button" onclick="cambiarModoOscuro()">Modo Oscuro</button>
+            
+        </nav>
+
+        <main>
+            <!--Comentario HTML: Sección del formulario obligatorio con mailto-->
+            <section>
+                <h2>Formulario de Consulta</h2>
+                <p>Si tienes dudas sobre las entradas o la carrera, envía tu mensaje:</p>
+
+                <form action="mailto:correo@ejemplo.com" method="post" enctype="text/plain">
+                    <fieldset>
+                        <legend>Datos de Contacto</legend>
+
+                        <label for="nombre">Nombre Completo:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+
+                        <label for="email">Correo electrónico:</label>
+                        <input type="text" id="email" name="email" required>
+
+                        <label for="mensaje">Consulta o mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+                        <input type="submit" value="Enviar Formulario">
+                    </fieldset>
+                </form>
+            </section>
+
+            <!--Comentario HTML: Lista obligatoria-->
+            <section>
+                <h3>Canales de atención</h3>
+                <ul>
+                    <li>Atención presencial en taquillas.</li>
+                    <li>Atención telefónica los días de evento.</li>
+                    <li>Soporte vía formulario web.</li>
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Sitio Web sobre Gran Premio de F1 - Proyecto ASIR BirtLH</p>
+        </footer>
+    </body>
+</html>        

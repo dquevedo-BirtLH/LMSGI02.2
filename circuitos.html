@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UFF-8">
+        <meta name="viewport" content="width=device=width, initial-scale-1.0">
+        <title>Gran Premio de F1 - Circuito</title>
+        <link rel="stylesheet" href="estilos/estilos.css">
+    </head>
+
+    <script src="funciones/funciones.js"></script>
+
+    <body>
+        <header>
+            <h1>Detalles del Circuito</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="circuitos.html">Circuito</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+
+            <button type="button" onclick="cambiarModoOscuro()">Modo Oscuro</button>
+            
+        </nav>
+        
+        <main>
+        <!--Comentario HTML: Tabla con datos del circuito-->
+        <section>
+            <h2>Características del Trazado</h2>
+            <p>El circuito cuenta con zonas de alta velocidad y curvas técnicas exigentes para los pilotos.</p>
+
+            <img src="imagenes/circuito.jpg" alt="Plano y mapa del trazado del circuito de F1" class="img-f1">
+        </section>
+
+        <!--Comentario HTML: Tabla con datos del circuito-->
+        <section>
+            <h3>Ficha Técnica</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Parámetro</th>
+                        <th>Valor</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Longitud total</td>
+                        <td>5.338 km</td>
+                    </tr>
+                    <tr>
+                        <td>Número de vueltas</td>
+                        <td>57</td>
+                    </tr>
+                    <tr>
+                        <td>Zonas de DRS</td>
+                        <td>2 zonas</td>
+                    </tr>
+                </tbody>
+            </table>
+            <button type="button" onclick="mostrarDetalles()">Ver más detalles del circuito</button>
+            <div id="info-adicional" style="display: none; margin-top: 10px; padding: 10px; background-color: #333; color: #fff; border-left: 4px solid red;">
+                <p><strong>Nota:</strong> Este circuito cuenta con estrictas medidas de seguridad homologadas por la FIA.</p>
+            </div>
+        </section>
+
+        <!--Comentario HTML: Lista requerida-->
+        <section>
+            <h3>Zonas destacadas</h3>
+            <ul>
+                <li>Recta principal de meta.</li>
+                <li>Horquilla de frenada fuerte.</li>
+                <li>Chicana rápida de salida a recta posterior.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Sitio Web sobre Gran premio de F1 - Proyecto ASIR BirtLH</p>
+    </footer>
+    </body>
+</html>
