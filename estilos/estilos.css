@@ -131,3 +131,16 @@ footer {
     margin-top: 20px;
 }
 
+/* Modo oscuro global */
+body.modo-oscuro {
+    background-color: #1a1a1a !important;
+    color: #ffffff !important; 
+}
+
+body.modo.oscuro main,
+body.modo-oscuro section,
+body.modo-oscuro article,
+body.modo-oscuro div {
+    background-color: #2a2a2a !important;
+    color: #ffffff !important;
+}

@@ -9,15 +9,7 @@ function saludoPiloto() {
 
 /* FUNCION 2 (Modo oscuro)*/
 function cambiarModoOscuro() {
-    let body = document.body;
-    // Cambia los colores de fondo y texto de toda la página //
-    if (body.style.backgroundColor === "rgb(26,26,26)") {
-        body.style.backgroundColor = "";
-        body.style.color="";
-    } else {
-        body.style.backgroundColor = "#1a1a1a";
-        body.style.color = "#f0f0f0";
-    }
+    document.body.classList.toggle("modo-oscuro");
 }
 
 /* FUNCION 3 Mostrar/Ocultar */
